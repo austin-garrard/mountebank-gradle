@@ -4,8 +4,8 @@ plugins {
     id "com.gradle.plugin-publish" version "0.9.4"
 }
 
-group = 'org.ndrwdn'
-version = '0.0.4'
+group = 'org.agarrard'
+version = '0.0.5'
 
 repositories {
     jcenter()
@@ -40,9 +40,9 @@ publishing {
 }
 
 pluginBundle {
-    website = 'https://github.com/ndrwdn/mountebank-gradle'
-    vcsUrl = 'https://github.com/ndrwdn/mountebank-gradle'
-    description = 'A Gradle plugin to manage Mountebank'
+    website = 'https://github.com/agarrard/mountebank-gradle'
+    vcsUrl = 'https://github.com/agarrard/mountebank-gradle'
+    description = 'A Gradle plugin to manage Mountebank. Forked from https://github.com/ndrwdn/mountebank-gradle'
     tags = ['mountebank', 'test']
 
     plugins {
